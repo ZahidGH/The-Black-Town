@@ -155,6 +155,8 @@ nav>ul>li>button:hover {
 .outer {
     font-weight: 700;
     width: 30vh;
+    max-height: 70vh;
+    min-height: 50vh;
     background-color: #e2e2e2;
     border-radius: 10px;
     border: 1px solid #30303038;
@@ -252,7 +254,8 @@ nav>ul>li>button:hover {
     scrollbar-width: thin;
     padding-top: 3px;
     color: rgba(0, 0, 0, 0.664);
-    height: 13vh;
+    height: 12vh;
+    margin-bottom: 16px;
 }
 
 .dark-mode .ptxt {
@@ -263,7 +266,8 @@ nav>ul>li>button:hover {
 .button {
     margin-top: 3%;
     margin-left: 40%;
-    margin-bottom: 5%;
+    top: auto;
+    bottom: 10px;
     display: flex;
     position: relative;
 
